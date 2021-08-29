@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>746</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>746</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1280</width>
+    <height>746</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>256</width>
+      <height>720</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>26</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="edit">
+    <property name="title">
+     <string>编辑</string>
+    </property>
+    <addaction name="undo"/>
+   </widget>
+   <widget class="QMenu" name="file">
+    <property name="title">
+     <string>文件</string>
+    </property>
+    <addaction name="load"/>
+    <addaction name="save"/>
+    <addaction name="saveto"/>
+   </widget>
+   <addaction name="file"/>
+   <addaction name="edit"/>
+  </widget>
+  <action name="newmap">
+   <property name="text">
+    <string>新地图</string>
+   </property>
+  </action>
+  <action name="load">
+   <property name="text">
+    <string>加载</string>
+   </property>
+  </action>
+  <action name="save">
+   <property name="text">
+    <string>保存</string>
+   </property>
+  </action>
+  <action name="saveto">
+   <property name="text">
+    <string>另存为</string>
+   </property>
+  </action>
+  <action name="undo">
+   <property name="text">
+    <string>撤销</string>
+   </property>
+  </action>
+  <action name="redo">
+   <property name="text">
+    <string>恢复</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
