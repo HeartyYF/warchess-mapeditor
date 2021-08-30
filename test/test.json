@@ -1,6 +1,45 @@
 {
+    "ally": {
+        "ever": {
+            "image": "char2.png",
+            "pos": [
+            ]
+        },
+        "what": {
+            "image": "char1.png",
+            "pos": [
+                {
+                    "x": 0,
+                    "y": 2
+                }
+            ]
+        }
+    },
     "default": "null",
+    "enemy": {
+        "troll1": {
+            "atk": 5,
+            "def": 3,
+            "hp": 10,
+            "image": "troll.png",
+            "mov": 5,
+            "pos": [
+            ]
+        },
+        "troll2": {
+            "atk": 5,
+            "def": 3,
+            "hp": 10,
+            "image": "troll.png",
+            "mov": 5,
+            "pos": [
+            ]
+        }
+    },
     "height": 50,
+    "lose": [
+        "what"
+    ],
     "name": "test",
     "tile": {
         "fog": {
@@ -91,5 +130,9 @@
             ]
         }
     },
-    "width": 50
+    "width": 50,
+    "win": [
+        "troll1",
+        "troll2"
+    ]
 }

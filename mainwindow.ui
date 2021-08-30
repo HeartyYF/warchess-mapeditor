@@ -36,6 +36,16 @@
      </rect>
     </property>
    </widget>
+   <widget class="QListWidget" name="special">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>256</width>
+      <height>720</height>
+     </rect>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -51,6 +61,7 @@
      <string>编辑</string>
     </property>
     <addaction name="undo"/>
+    <addaction name="toggle"/>
    </widget>
    <widget class="QMenu" name="file">
     <property name="title">
@@ -91,6 +102,11 @@
   <action name="redo">
    <property name="text">
     <string>恢复</string>
+   </property>
+  </action>
+  <action name="toggle">
+   <property name="text">
+    <string>切换</string>
    </property>
   </action>
  </widget>

@@ -26,7 +26,10 @@ private slots:
     void saveMap();
     void savetoMap();
     void undo();
+    void toggle();
     void on_listWidget_currentItemChanged(QListWidgetItem *current, QListWidgetItem *previous);
+
+    void on_special_currentItemChanged(QListWidgetItem *current, QListWidgetItem *previous);
 
 private:
     Ui::MainWindow *ui;
@@ -35,5 +38,6 @@ private:
     QGraphicsView* view;
     Map* map;
     Tile* curtile;
+    Character* curchar;
 };
 #endif // MAINWINDOW_H
