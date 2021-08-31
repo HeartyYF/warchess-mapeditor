@@ -9,6 +9,11 @@ MainWindow::MainWindow(QWidget *parent)
     ui->special->hide();
     QGraphicsTileItem::curtile = &curtile;
     QGraphicsTileItem::curchar = &curchar;
+    ui->load->setShortcut(QKeySequence("Ctrl+L"));
+    ui->save->setShortcut(QKeySequence("Ctrl+S"));
+    ui->saveto->setShortcut(QKeySequence("Ctrl+Shift+S"));
+    ui->undo->setShortcut(QKeySequence("Ctrl+Z"));
+    ui->toggle->setShortcut(QKeySequence("Tab"));
     connect(ui->load, SIGNAL(triggered()), this, SLOT(loadMap()));
     connect(ui->save, SIGNAL(triggered()), this, SLOT(saveMap()));
     connect(ui->saveto, SIGNAL(triggered()), this, SLOT(savetoMap()));
