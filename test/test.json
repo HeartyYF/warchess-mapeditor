@@ -1,44 +1,72 @@
 {
     "ally": {
-        "ever": {
-            "image": "char2.png",
+        "alice": {
+            "image": "alice.png",
             "pos": [
+                {
+                    "x": 4,
+                    "y": 1
+                }
             ]
         },
-        "what": {
-            "image": "char1.png",
+        "micheal": {
+            "image": "micheal.png",
             "pos": [
                 {
                     "x": 0,
+                    "y": 1
+                },
+                {
+                    "x": 0,
                     "y": 2
+                },
+                {
+                    "x": 5,
+                    "y": 1
                 }
             ]
         }
     },
     "default": "null",
     "enemy": {
-        "troll1": {
+        "catdevil": {
             "atk": 5,
             "def": 3,
             "hp": 10,
-            "image": "troll.png",
+            "image": "catdevil.png",
             "mov": 5,
             "pos": [
+                {
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "x": 6,
+                    "y": 3
+                }
             ]
         },
-        "troll2": {
+        "catdragon": {
             "atk": 5,
             "def": 3,
             "hp": 10,
-            "image": "troll.png",
+            "image": "catdragon.png",
             "mov": 5,
             "pos": [
+                {
+                    "x": 1,
+                    "y": 2
+                },
+                {
+                    "x": 5,
+                    "y": 3
+                }
             ]
         }
     },
     "height": 50,
     "lose": [
-        "what"
+        "micheal"
     ],
     "name": "test",
     "tile": {
@@ -88,10 +116,6 @@
                 },
                 {
                     "x": 1,
-                    "y": 1
-                },
-                {
-                    "x": 1,
                     "y": 2
                 },
                 {
@@ -126,13 +150,53 @@
                 {
                     "x": 0,
                     "y": 1
+                },
+                {
+                    "x": 1,
+                    "y": 1
+                },
+                {
+                    "x": 4,
+                    "y": 1
+                },
+                {
+                    "x": 4,
+                    "y": 2
+                },
+                {
+                    "x": 4,
+                    "y": 3
+                },
+                {
+                    "x": 5,
+                    "y": 1
+                },
+                {
+                    "x": 5,
+                    "y": 2
+                },
+                {
+                    "x": 5,
+                    "y": 3
+                },
+                {
+                    "x": 6,
+                    "y": 1
+                },
+                {
+                    "x": 6,
+                    "y": 2
+                },
+                {
+                    "x": 6,
+                    "y": 3
                 }
             ]
         }
     },
     "width": 50,
     "win": [
-        "troll1",
-        "troll2"
+        "catdragon",
+        "catdevil"
     ]
 }
