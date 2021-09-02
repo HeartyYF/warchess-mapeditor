@@ -248,7 +248,7 @@ QJsonObject Map::toJson()
             charjson->insert("atk", QJsonValue(i->getatk()));
             charjson->insert("def", QJsonValue(i->getdef()));
             charjson->insert("mov", QJsonValue(i->getmov()));
-
+            charjson->insert("range", QJsonValue(i->getrange()));
         }
         QJsonArray* emptyarray = new QJsonArray;
         charpos.insert(i, emptyarray);

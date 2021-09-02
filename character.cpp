@@ -12,6 +12,7 @@ Character::Character(const QString& charname, const QJsonObject& charjson, const
         atk = charjson["atk"].toInt();
         def = charjson["def"].toInt();
         mov = charjson["mov"].toInt();
+        range = charjson["range"].toInt();
     }
 }
 
@@ -58,4 +59,9 @@ const int Character::getdef() const
 const int Character::getmov() const
 {
     return mov;
+}
+
+const int Character::getrange() const
+{
+    return range;
 }

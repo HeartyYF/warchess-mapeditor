@@ -35,6 +35,7 @@
             "hp": 10,
             "image": "catdevil.png",
             "mov": 5,
+			"range": 1,
             "pos": [
                 {
                     "x": 4,
@@ -52,6 +53,7 @@
             "hp": 10,
             "image": "catdragon.png",
             "mov": 5,
+			"range": 2,
             "pos": [
                 {
                     "x": 1,
@@ -129,7 +131,7 @@
             "cost": 1,
             "damage": 0,
             "fimage": "",
-            "pass": true,
+            "pass": false,
             "pos": [
             ]
         },

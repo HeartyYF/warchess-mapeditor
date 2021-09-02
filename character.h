@@ -15,6 +15,7 @@ class Character
     int atk;
     int def;
     int mov;
+    int range;
 
 public:
     Character(const QString& name, const QJsonObject& charjson, const bool& ally, const QDir& dir);
@@ -27,6 +28,7 @@ public:
     const int getatk() const;
     const int getdef() const;
     const int getmov() const;
+    const int getrange() const;
 
 };
 
