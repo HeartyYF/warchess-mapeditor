@@ -7,6 +7,10 @@ Map::Map(const QJsonObject& mapjson, const QDir curdir, QListWidget* listwidget,
     height = mapjson["height"].toInt();
     win = mapjson["win"].toArray();
     lose = mapjson["lose"].toArray();
+    if(mapjson.contains("bgm"))
+    {
+        bgm = mapjson["bgm"].toString();
+    }
     mapinfo.resize(width);
     charinfo.resize(width);
     for(auto& i : mapinfo)
@@ -288,6 +292,10 @@ QJsonObject Map::toJson()
     json.insert("ally", QJsonValue(ally));
     json.insert("win", QJsonValue(win));
     json.insert("lose", QJsonValue(lose));
+    if(!bgm.isEmpty())
+    {
+        json.insert("bgm", bgm);
+    }
     return json;
 }
 

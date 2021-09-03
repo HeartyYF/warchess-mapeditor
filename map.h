@@ -30,6 +30,7 @@ class Map
     list<Character*> charlist;
     QJsonArray win;
     QJsonArray lose;
+    QString bgm;
     int width;
     int height;
 
