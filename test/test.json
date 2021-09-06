@@ -1,5 +1,4 @@
 {
-	"bgm": "placeholder.wav",
     "ally": {
         "alice": {
             "image": "alice.png",
@@ -20,6 +19,7 @@
             ]
         }
     },
+    "bgm": "The Blue Reverberation.mp3",
     "default": "null",
     "enemy": {
         "catdevil": {

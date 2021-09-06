@@ -1,0 +1,28 @@
+{
+	"ally": {
+		"alice": {
+            "atk": 7,
+            "def": 6,
+            "hp": 18,
+			"mov": 6,
+			"range": 2
+        },
+        "micheal": {
+            "atk": 7,
+            "def": 6,
+            "hp": 18,
+			"mov": 6,
+			"range": 1
+        }
+	},
+	"battle": [
+		{
+			"before": "bdial01.json",
+			"map": "test.json"
+		},
+		{
+			"map": "test.json",
+			"after": "adial02.json"
+		}
+	]
+}
