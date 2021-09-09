@@ -5,9 +5,16 @@
             "def": 6,
             "hp": 18,
 			"mov": 6,
-			"range": 2
+			"range": 1
         },
         "micheal": {
+            "atk": 7,
+            "def": 6,
+            "hp": 18,
+			"mov": 6,
+			"range": 1
+        },
+		"netzach": {
             "atk": 7,
             "def": 6,
             "hp": 18,
@@ -18,10 +25,11 @@
 	"battle": [
 		{
 			"before": "bdial01.json",
-			"map": "test.json"
+			"map": "test1.json"
 		},
 		{
-			"map": "test.json",
+			"before": "bdial02.json",
+			"map": "test2.json",
 			"after": "adial02.json"
 		}
 	]
